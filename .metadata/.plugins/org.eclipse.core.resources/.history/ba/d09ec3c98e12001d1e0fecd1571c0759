@@ -1,0 +1,8 @@
+package bank_01;
+
+public class Second {
+	public static void  meth1() {
+		System.out.println("second class");
+	}
+
+}

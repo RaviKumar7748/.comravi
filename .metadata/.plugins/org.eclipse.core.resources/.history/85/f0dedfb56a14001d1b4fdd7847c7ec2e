@@ -1,0 +1,29 @@
+package com.mypractice;
+class interf{
+	private String name;  //
+	private int sid;
+	 
+	public void setname(String name,int sid) {
+		this.name=name;
+		this.sid=sid;
+	}
+	public void getname() {
+		System.out.println(name+"  "+sid);
+	}
+	
+}
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		interf i=new interf();
+		i.setname("Ravi", 101);
+		i.getname();
+		interf sb=new interf();
+		
+		sb.setname("Saba", 102);
+		sb.getname();
+
+	}
+
+}

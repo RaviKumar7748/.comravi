@@ -1,0 +1,17 @@
+package bank_01;
+ abstract class Third{
+	public abstract void meth2();
+}
+
+public class Second {
+	public static void  meth1() {
+		System.out.println("second class");
+	}
+
+}
+ class Fourth extends Third{
+	 public void meth2() {
+		 System.out.println("Abstract method");
+	 }
+	
+}

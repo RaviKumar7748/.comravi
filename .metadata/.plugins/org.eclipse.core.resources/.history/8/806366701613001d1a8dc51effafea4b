@@ -1,0 +1,8 @@
+package com.example.demo;
+
+public class FirstBean {
+	public void method1() {
+		System.out.println("welcome to maven and eclipse");
+	}
+
+}
